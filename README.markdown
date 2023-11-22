@@ -15,7 +15,7 @@ I wrote a CLI application some days ago in C++, which you can find [here](https:
 To use *Hack.js* in a Node.js project, run this command in your project's root directory:
 
 ```bash
-$ npm install --save-dev git+https://github.com/angeldollface/hack
+npm install --save-dev git+https://github.com/angeldollface/hack.js
 ```
 
 ### Use *Hack.js* in a Node.js project with Typescript :gear:
@@ -41,13 +41,13 @@ Here's a small example:
 - 1.) Initialize a new Node.js project with the following command in a directory of your choosing:
 
 ```bash
-$ npm init -y 
+npm init -y 
 ```
 
 - 2.) Install *Hack.js*:
 
 ```bash
-$ npm install --save-dev hack
+npm install --save-dev git+https://github.com/angeldollface/hack.js
 ```
 
 - 3.) Be sure to add this line to your project's `package.json`:
