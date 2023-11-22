@@ -40,7 +40,7 @@ export function letter_db(){
 // for a letter if said letter can be
 // replaced with a digit.
 export function get_char(char){
-  let result = char;
+  var result = char;
   let db = letter_db();
   for (let [key, value] of Object.entries(db)){
     if (key === char){
@@ -54,8 +54,8 @@ export function get_char(char){
 // A function that replaces letters
 // with digits if possible.
 export function hackify(phrase){
-  let replaced = [];
-  for (i = 0; i < phrase.length; i++){
+  var replaced = [];
+  for (var i = 0; i < phrase.length; i++){
     let new_char = get_char(phrase[i]);
     replaced.push(new_char);
   }

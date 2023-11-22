@@ -8,6 +8,6 @@
     "license": "MIT",
     "type": "module",
     "dependencies" : {
-        "hack":"git://github.com/angeldollface/hack.git"
+        "hack":"git://github.com/angeldollface/hack.js.git"
     }
   }
