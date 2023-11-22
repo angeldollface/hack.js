@@ -6,7 +6,7 @@
 
 ## ABOUT :books:
 
-
+I wrote a CLI application some days ago in C++, which you can find [here](https://github.com/angeldollface/hack), that replaces letters with digits, where possible, in any given string. This repository contains the source code for this same project written in Javascript as a library. Enjoy. :heart:
 
 ## USAGE :hammer:
 
