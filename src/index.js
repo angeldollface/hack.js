@@ -1,3 +1,15 @@
+/*
+HACK.JS by Alexander Abraham, 
+a.k.a. "Angel Dollface".
+Licensed under the MIT license.
+*/
+
+'use strict';
+
+// A function that returns
+// an object with letter-digit
+// mappings for letters that can
+// be replaced with numbers.
 export function letter_db(){
   let db = {
     'I': '1',
@@ -24,6 +36,9 @@ export function letter_db(){
   return db;
 }
 
+// A function that returns the digit
+// for a letter if said letter can be
+// replaced with a digit.
 export function get_char(char){
   let result = char;
   let db = letter_db();
@@ -36,6 +51,8 @@ export function get_char(char){
   return result;
 }
 
+// A function that replaces letters
+// with digits if possible.
 export function hackify(phrase){
   let replaced = [];
   for (i = 0; i < phrase.length; i++){
@@ -46,8 +63,9 @@ export function hackify(phrase){
   return result;
 }
 
-function main(){
-  console.log(hackify('HELLO WORLD!'));
-}
-
-main();
+// Exporting all functions.
+export default {
+  letter_db,
+  get_char,
+  hackify
+};

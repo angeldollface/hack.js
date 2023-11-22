@@ -1,0 +1,20 @@
+{
+    "name": "hack",
+    "version": "0.1.0",
+    "description": "A tiny Javascript library for replacing letters with numbers.",
+    "main": "./src/index.js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/angeldollface/hack.js.git"
+    },
+    "keywords": [
+      "hacking"
+    ],
+    "type": "module",
+    "author": "Angel Dollface <angelbbe@proton.me>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/angeldollface/hack.js/issues"
+    },
+    "homepage": "https://github.com/angeldollface/hack.js#readme"
+  }
